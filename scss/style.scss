@@ -18,12 +18,40 @@ body {
 .card {
   height: 560px;
   width: 525px;
-  background: red;
+  border: darkmagenta dashed 5px;
   border-radius: 4%;
   overflow: hidden;
+
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 73% 1fr;
 }
 .card > svg {
+  position: absolute;
+}
+.img-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
 
+  border: solid deepskyblue 10px;
+}
+.img-container > .img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: orange;
+  z-index: 1;
+}
+
+.lower { 
+  border: dashed hotpink 5px;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .container {
