@@ -1,2 +1,13 @@
 $font-stack: Arial, Helvetica, sans-serif;
 $light-color: #f4f4f4;
+
+.design-background {
+  // background-image: url('desktop-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

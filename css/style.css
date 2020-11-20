@@ -1,3 +1,13 @@
+.design-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +20,15 @@ body {
   line-height: 1.6;
   height: 100vh;
   width: 100vw;
+}
+
+.container {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .card {
@@ -48,24 +67,19 @@ body {
   border: dashed hotpink 5px;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.container {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  place-items: center;
+.text-container {
+  width: 100px;
+  border: solid green 5px;
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.design-background {
-  background-image: url("desktop-design.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
+.text-container > h5 {
+  font-size: 1.8rem;
 }

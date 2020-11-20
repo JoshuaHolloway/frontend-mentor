@@ -15,15 +15,24 @@ body {
   width: 100vw;
 }
 
+.container {
+  position: absolute;
+  opacity: 0.5;
+
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
 .card {
   height: 560px;
   width: 525px;
   border: darkmagenta dashed 5px;
   border-radius: 4%;
   overflow: hidden;
-
+  
   position: relative;
-
+  
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 73% 1fr;
@@ -51,26 +60,23 @@ body {
   border: dashed hotpink 5px;
   height: 100%;
   width: 100%;
-  
+
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.container {
-  position: absolute;
-  opacity: 0.5;
+.text-container {
+  width: 100px;
 
-  height: 100%;
-  width: 100%;
-  display: grid;
-  place-items: center;
+  border: solid green 5px;
+  padding-top: 8%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-around;
 }
 
-.design-background {
-  background-image: url('desktop-design.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
+.text-container > h5 {
+  font-size: 1.8rem;
 }
