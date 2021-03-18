@@ -7,23 +7,10 @@
 body {
   position: relative;
   height: 100vh;
+  background: #0c122c;
   display: grid;
   place-items: center;
   opacity: 1;
-}
-
-body::before {
-  content: '';
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  background-image: url("../design/desktop-design.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  opacity: 0.5;
 }
 
 body .svg-container {
@@ -53,6 +40,45 @@ body .center .container .left {
   background: orange;
   border-radius: 10px;
   border-top-right-radius: 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+
+body .center .container .left .top {
+  height: 50%;
+  background: green;
+  display: flex;
+  align-items: center;
+}
+
+body .center .container .left .top .logo-container {
+  background: darkorchid;
+}
+
+body .center .container .left .bottom {
+  height: 50%;
+  background: blue;
+  display: flex;
+  align-items: center;
+}
+
+body .center .container .left .bottom .icon-container {
+  background: darkorchid;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body .center .container .left .bottom .icon-container .icon-box {
+  background: #0c122c;
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
 }
 
 body .center .container .right {
