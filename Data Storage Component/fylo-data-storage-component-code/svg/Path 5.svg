@@ -1,0 +1,19 @@
+<svg id="Path_5" data-name="Path 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="420" viewBox="0 0 1440 420">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M210,0H1440a0,0,0,0,1,0,0V420a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V210A210,210,0,0,1,210,0Z" fill="#0f1b3d"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.616" y1="0.349" x2="0.342" y2="0.76" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e2d69" stop-opacity="0.749"/>
+      <stop offset="0.999" stop-color="#0c122c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Path_2" data-name="Path 2">
+    <path id="Mask-2" data-name="Mask" d="M210,0H1440a0,0,0,0,1,0,0V420a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V210A210,210,0,0,1,210,0Z" fill="#0f1b3d"/>
+    <g id="Path_2-2" data-name="Path 2" clip-path="url(#clip-path)">
+      <path id="Path_2_Copy_2" data-name="Path 2 Copy 2" d="M-6.042,1010.028C27.24,830.633-70.419,671.991-463.665,638.636s-413.416-249.544-629.08-443.874-609.318-330.911-719.655,32-67.457,599.427,291.159,898.038,736.114,236.909,892.112,213.959S-39.323,1189.423-6.042,1010.028Z" transform="translate(1953 -352)" fill="url(#linear-gradient)"/>
+      <path id="Path_2_Copy" data-name="Path 2 Copy" d="M-4.357,728.549c24-129.4-46.424-243.831-330-267.891s-298.121-180-453.64-320.173-439.39-238.692-518.955,23.083-48.644,432.376,209.959,647.769,530.824,170.886,643.316,154.332S-28.357,857.949-4.357,728.549Z" transform="translate(1259.603 -111)" fill="url(#linear-gradient)"/>
+      <path id="Path_2_Copy_4" data-name="Path 2 Copy 4" d="M-4.357,728.549c24-129.4-46.424-243.831-330-267.891s-298.121-180-453.64-320.173-439.39-238.692-518.955,23.083-48.644,432.376,209.959,647.769,530.824,170.886,643.316,154.332S-28.357,857.949-4.357,728.549Z" transform="translate(1231.603 163)" opacity="0.401" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

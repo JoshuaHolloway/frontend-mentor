@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  opacity: 1;
+}
+
+body::before {
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: url("../design/desktop-design.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.5;
+}
+
+body .svg-container {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  bottom: 0;
+}
+
+body .center {
+  height: 300px;
+  width: 1225px;
+  background: red;
+}
+
+body .center .container {
+  background: deepskyblue;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+body .center .container .left {
+  height: 100%;
+  width: 38%;
+  background: orange;
+  border-radius: 10px;
+  border-top-right-radius: 140px;
+}
+
+body .center .container .right {
+  height: 76%;
+  width: 59%;
+  background: deeppink;
+  border-radius: 10px;
+}
